@@ -1,0 +1,15 @@
+name: Windows Server Deployment
+
+on: [push]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v3
+
+      - name: Run Server Setup Script
+        run: |
+          chmod +x scripts/setup.sh
+          ./scripts/setup.sh
