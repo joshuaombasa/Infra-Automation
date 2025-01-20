@@ -10,6 +10,6 @@ This repository provides automated scripts to configure a Windows Server cluster
 
 ## Installation
 ```sh
-git clone [https://github.com/your-username/WindowsServer-ClusterSetup.git](https://github.com/joshuaombasa/Infra-Automation)
+git clone https://github.com/joshuaombasa/Infra-Automation
 cd Infra-Automation
 ./scripts/setup.sh
